@@ -1,0 +1,258 @@
+Request method:	POST
+Request URI:	https://schoolinst.purestudy.com/api/userLogin
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "user_name": "yogesh.rade@purestudy.com",
+    "password": "123456"
+}
+HTTP/1.1 200 OK
+Date: Mon, 18 Nov 2024 06:41:29 GMT
+Server: 
+Access-Control-Allow-Methods: POST, PUT, GET, DELETE, OPTIONS
+Access-Control-Allow-Headers: Content-Type
+X-Frame-Options: sameorigin
+Access-Control-Allow-Origin: *
+Content-Length: 3967
+Keep-Alive: timeout=5, max=250
+Connection: Keep-Alive
+Content-Type: application/json; charset=UTF-8
+
+{
+    "code": 200,
+    "result": "SUCCESS",
+    "data": {
+        "user_id": 1,
+        "user_mobile": 8622122753,
+        "user_email_address": "yogesh.rade@purestudy.com",
+        "active_role": 1,
+        "role": "Admin",
+        "first_name": "Kavita151",
+        "middle_name": "vaibhav11",
+        "last_name": "deo1",
+        "user_photo": null,
+        "user_status": 0,
+        "batch": {
+            "batch_id": 5,
+            "batch_name": "2024-2025"
+        },
+        "user_roles": [
+            {
+                "role_id": 1,
+                "role": "Admin"
+            }
+        ],
+        "token": "eyJjaXBoZXJ0ZXh0IjoiUmVRM3A4K25xaExFNjFYSzBlYlwvb0hBc29xdVwveG5nWGhrOEdraGRDNzNFZW4xdElFcldaYnJLeFBlUjFKZEJENFAxY0JYRG9wTjloWW5FeWpJMVMyUzNxaDA1QVdvaDZIUWNNcVFmYisyQUxCZlBvN1ZNdXRrcXdES0VLWWV0UTZJaHZ6cndqblNlQWJGUWlhSUw1TXVmZVdUNTF2bGlCMGVLWFAyWHVMWjBwOWlDXC9XTW1ZOTBEWlp6VVA3ZFVYTkRFazF2RFdaYyttOUgyRGVTcE1FK1dsQ3lLOWZMUFJveUlzYVdGTzh0b2oyYWJIXC92VDFtVWRzWXorTjFGQSsiLCJpdiI6IjVhOGE1MzAyYWViNTA3ZTViNjA1NWU4YmMzZGEwYTk2Iiwic2FsdCI6ImRkMTZiMjdiOWE3MmRkNjk1NWE4MzYxZjFkNTMwMWFkZjk2YjBmZDgzM2E5ZmM1MWFiYjAyNzk2YTRjMjViZmNmYjk1NjU3ZGU3ZWY3NDRkMTVmNWJmMmEyZjg3Njk5ZTFmYTQxMGRkNzZkZmE0OTNmZDA4OGMxMzc5YjkyOGRmNjJhOGQxNjVkMWQwOGEwOTYyZmJmZmNkYjYzMTkxYjc0NDBmMzQ2N2VmZTQwMGZhZjBhZjRmNzJkNzFhY2ZiZTYwZmI4NjQzZDg5MTQ1NGU1MDQ0MjY0ZGQ4ZmI1MjBkYWI1NTUwMTIzOTZkMGE2YjNiZjcyY2U5MWUzM2E5OWY1NzliNWM4NzAzZjlkMjlkNzlhNjJlYWFiOWMyNmQwZDllNWIxMmZlZTZlOTU3OTg4MTQ2NDc4NzRiYTUwYWI3N2IyZDY3N2FlNzhlNGM2N2I3NWY1NzlhNTRhYzM4MGVhYjIxOWQ3OWJjOWM1NzMzN2U0YWFhMGIzYzQ1NmI0NzM4NGZiNDczNjI1OTA3NTU2ZjZlMDhhZWVjMjFhMjI3OTM1MDNkMTk0YjZlNmQ3ZWY0YWRlNDY5ZDBlYjJiNzBiZjEzZDA3MjQwYjAwZWE3ZTE2NjA2YmEyMjFhNzU1NjIwNTI4ZGM5ODgyMjYxZTk2NDk0NzM2Y2YxYzAyODhkIiwiaXRlcmF0aW9ucyI6OTk5fQ==",
+        "menus": [
+            {
+                "menu_id": 1,
+                "id": "Dashboard",
+                "title": "Dashboard",
+                "type": "item",
+                "icon": "dashboard",
+                "url": "dashboard",
+                "children": [
+                    
+                ]
+            },
+            {
+                "menu_id": 2,
+                "id": "User",
+                "title": "User Management",
+                "type": "collapsable",
+                "icon": "supervised_user_circle",
+                "url": null,
+                "children": [
+                    {
+                        "id": "user",
+                        "title": "Users",
+                        "type": "item",
+                        "icon": "supervisor_account",
+                        "url": "user"
+                    },
+                    {
+                        "id": "student",
+                        "title": "Students",
+                        "type": "item",
+                        "icon": "group",
+                        "url": "student"
+                    }
+                ]
+            },
+            {
+                "menu_id": 3,
+                "id": "Class",
+                "title": "Class Management",
+                "type": "collapsable",
+                "icon": "class",
+                "url": null,
+                "children": [
+                    {
+                        "id": "class",
+                        "title": "Class",
+                        "type": "item",
+                        "icon": "chrome_reader_mode",
+                        "url": "class"
+                    },
+                    {
+                        "id": "syllabus",
+                        "title": "Syllabus",
+                        "type": "item",
+                        "icon": "subject",
+                        "url": "syllabus"
+                    },
+                    {
+                        "id": "timetable",
+                        "title": "Timetable",
+                        "type": "item",
+                        "icon": "table_chart",
+                        "url": "timetable"
+                    },
+                    {
+                        "id": "lecture-plan",
+                        "title": "Lecture Plan",
+                        "type": "item",
+                        "icon": "note",
+                        "url": "lecture-plan"
+                    },
+                    {
+                        "id": "lecture",
+                        "title": "Lecture",
+                        "type": "item",
+                        "icon": "description",
+                        "url": "lecture"
+                    },
+                    {
+                        "id": "assignment",
+                        "title": "Assignment",
+                        "type": "item",
+                        "icon": "assignment",
+                        "url": "assignment"
+                    },
+                    {
+                        "id": "classtest",
+                        "title": "Understanding Test",
+                        "type": "item",
+                        "icon": "assessment",
+                        "url": "classtest"
+                    }
+                ]
+            },
+            {
+                "menu_id": 4,
+                "id": "performance",
+                "title": "Performance",
+                "type": "item",
+                "icon": "bar_chart",
+                "url": "performance",
+                "children": [
+                    
+                ]
+            },
+            {
+                "menu_id": 7,
+                "id": "School",
+                "title": "School Information",
+                "type": "item",
+                "icon": "school",
+                "url": "school",
+                "children": [
+                    
+                ]
+            },
+            {
+                "menu_id": 8,
+                "id": "Notice",
+                "title": "Notice Board",
+                "type": "item",
+                "icon": "event_note",
+                "url": "notice",
+                "children": [
+                    
+                ]
+            },
+            {
+                "menu_id": 9,
+                "id": "Holiday",
+                "title": "Holiday's",
+                "type": "item",
+                "icon": "event_busy",
+                "url": "holiday",
+                "children": [
+                    
+                ]
+            },
+            {
+                "menu_id": 10,
+                "id": "Audit",
+                "title": "Audit",
+                "type": "item",
+                "icon": "feedback",
+                "url": "audit",
+                "children": [
+                    
+                ]
+            },
+            {
+                "menu_id": 11,
+                "id": "reports",
+                "title": "Report's",
+                "type": "collapsable",
+                "icon": "report",
+                "url": null,
+                "children": [
+                    {
+                        "id": "usereport",
+                        "title": "User Report",
+                        "type": "item",
+                        "icon": "assessment",
+                        "url": "usereport"
+                    },
+                    {
+                        "id": "studentreport",
+                        "title": "Student Report",
+                        "type": "item",
+                        "icon": "assessment",
+                        "url": "studentreport"
+                    },
+                    {
+                        "id": "attendancereport",
+                        "title": "Attendance Report",
+                        "type": "item",
+                        "icon": "assessment",
+                        "url": "attendancereport"
+                    },
+                    {
+                        "id": "password",
+                        "title": "User Password",
+                        "type": "item",
+                        "icon": "security",
+                        "url": "userpass"
+                    },
+                    {
+                        "id": "logreport",
+                        "title": "User Log Report ",
+                        "type": "item",
+                        "icon": "assessment",
+                        "url": "userlogreport"
+                    },
+                    {
+                        "id": "Frsreport",
+                        "title": "Frs Report",
+                        "type": "item",
+                        "icon": "assessment",
+                        "url": "frsreport"
+                    }
+                ]
+            }
+        ]
+    }
+}
